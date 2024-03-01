@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Inventory</title>
+</head>
+<body>
+	<form action="addInventoryServlet" method="post">
+		<label for="product-name">Product name</label>
+		<input type="text" name="product-name" id="product-name" />
+		<label for="price">Price</label>
+		<input type="text" name="price" id="price" />
+		<label for="qty">Quantity</label>
+		<input type="text" name="qty" id="qty" />
+		<input type="submit" value="Add to Inventory" />
+	</form>
+	<a href="viewFullInventoryServlet">View the complete list</a>
+</body>
+</html>
